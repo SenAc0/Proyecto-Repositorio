@@ -3,9 +3,9 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="w-full bg-blue-800 text-white py-3 shadow-md">
+    <header className="w-full  text-white py-3 shadow-md" style={{ backgroundColor: '#242847' }}>
 
-        <div className=" flex justify-between items-center px-4">
+        <div className=" flex justify-between items-center px-4" >
 
             <h2 className="text-xl font-bold">Repo</h2>
             <nav className="hidden md:flex space-x-6">
